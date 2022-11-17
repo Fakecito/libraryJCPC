@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #4071f2;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.logo h1 {
+  font-size: 40px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.profile-box:hover {
+  box-shadow: 0 0 12px 0 #000;
+}
+
+.profile-box img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border: 3px solid #fff;
+}
+
+.profile-box h2 {
+  font-size: 30px;
+  padding-left: 10px;
+  color: #fff;
+  border-bottom: #fff;
+}
+
+nav {
+  background-color: #5dade2;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  padding: 25px 45px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+li:hover {
+  background-color: #4071f2;
+  box-shadow: 0 0 12px 0 #000;
+}
+
+.contenedor-todo {
+  background-color: #4071f2;
+  height: 500px;
+  width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 0 #000;
+  margin-bottom: 30px;
+}
+
+.NmDocumentoUsuario-div {
+  margin-top: 70px;
+}
+
+span {
+  border-bottom: 2px solid #fff;
+  color: #2c469b;
+}
+
+.contenedor-tittle-div h1 {
+  display: inline;
+  color: #fff;
+  border-bottom: 2px solid #2c469b;
+}
+
+.NmDocumentoUsuario-div label {
+  font-size: 25px;
+  margin-right: 15px;
+  color: #fff;
+}
+
+.NmDocumentoUsuario-div input {
+  font-size: 15px;
+  height: 30px;
+  width: 260px;
+  outline: none;
+}
+
+.NmDocumentoUsuario-div input:focus {
+  box-shadow: 0 0 5px 0 #fff;
+  border-style: solid;
+}
+
+.NmDocumentoUsuario-div i {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -30px;
+}
+
+.UserState-div {
+  position: relative;
+  top: 40px;
+  left: 200px;
+}
+
+.UserState-div h3 {
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  font-size: 20px;
+  color: #fff;
+}
+
+table {
+  margin: 80px auto;
+  background-color: #fff;
+  height: 150px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #2c469b;
+  border-radius: 10px;
+  border: 5px solid #2c469b;
+  box-shadow: 0 0 8px 0 #000;
+}
+
+table label {
+  margin-right: 25px;
+}
+
+table b {
+  font-size: 20px;
+}
+
+table a {
+  color: #2c469b;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #4071f2;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+footer h1 {
+  color: #fff;
+}

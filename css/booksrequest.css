@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #4071f2;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.logo h1 {
+  font-size: 40px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.profile-box:hover {
+  box-shadow: 0 0 12px 0 #000;
+}
+
+.profile-box img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border: 3px solid #fff;
+}
+
+.profile-box h2 {
+  font-size: 30px;
+  padding-left: 10px;
+  color: #fff;
+  border-bottom: #fff;
+}
+
+nav {
+  background-color: #5dade2;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  padding: 25px 45px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+li:hover {
+  background-color: #4071f2;
+  box-shadow: 0 0 12px 0 #000;
+}
+
+.container-solicitarLibros-div {
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #4071f2;
+  height: 400px;
+  width: 1250px;
+  margin-bottom: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 0 #000;
+}
+
+.tittle-div h1 {
+  display: inline;
+  color: #fff;
+  margin: 5px 20px;
+  border-bottom: 2px solid #2c469b;
+}
+
+.tittle-div span {
+  border-bottom: 2px solid #fff;
+  color: #2c469b;
+}
+
+.buscarLibroPor-div {
+  margin: 20px;
+}
+
+.buscarLibroPor-div label {
+  font-size: 20px;
+  color: #fff;
+}
+
+input {
+  font-size: 20px;
+}
+
+span {
+  font-size: 30px;
+}
+
+.buscarLibroPor-div input {
+  margin-left: 30px;
+}
+
+.search-input {
+  height: 35px;
+  width: 300px;
+}
+
+.buscarLibroPor-div i {
+  margin-left: -30px;
+}
+
+table {
+  margin: 50px 0;
+  background-color: #fff;
+  font-size: 20px;
+  color: #2c469b;
+  border-radius: 10px;
+  border: 5px solid #2c469b;
+  box-shadow: 0 0 8px 0 #000;
+  width: 1250px;
+  padding-right: 20px;
+}
+
+table b {
+  font-size: 20px;
+}
+
+table label {
+  margin-left: 40px;
+  font-size: 13px;
+}
+
+.numCambiantes-div {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.numCambiantes-div a {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #4071f2;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #4071f2;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h1 {
+  color: #fff;
+}

@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4071f2;
+}
+
+input {
+  display: block;
+  margin-top: 30px;
+  width: 320px;
+  height: 30px;
+  position: relative;
+  left: 20px;
+  top: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #4071f2;
+  font-size: 17px;
+}
+
+h1 {
+  position: relative;
+  left: -8px;
+}
+
+input::placeholder {
+  font-size: 17px;
+}
+
+.contenedor {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  padding-right: 24px;
+  padding-bottom: 60px;
+  box-shadow: 0 0 12px 0px #000;
+}
+
+i {
+  position: relative;
+  top: 60px;
+  left: -10px;
+  color: #abb2b9;
+  z-index: 1;
+}
+
+.content-checkbox .checkbox_input {
+  display: inline;
+  position: relative;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  left: -9px;
+}
+
+label {
+  position: relative;
+  left: 0px;
+  top: 3px;
+}
+
+.forgotPassword_a {
+  position: relative;
+  left: 130px;
+}
+
+button {
+  height: 50px;
+  width: 350px;
+  position: relative;
+  display: block;
+  top: 20px;
+  left: -10px;
+  border-radius: 5px;
+  background-color: #4071f2;
+  color: #fff;
+  font-size: 20px;
+}
+
+.notAccount label {
+  position: relative;
+  top: 40px;
+}
+
+.notAccount a {
+  position: relative;
+  top: 40px;
+  left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #4071f2;
+}
+
+.loginNow-buttom a {
+  height: 50px;
+  width: 350px;
+  color: #fff;
+  display: block;
+  margin-top: 13px;
+}
